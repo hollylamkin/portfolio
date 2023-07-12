@@ -1,0 +1,434 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 5px; }
+
+.nav-links {
+  text-align: right;
+  padding-right: 70px;
+}
+.nav-links a {
+  color: #000; /* Change the font color to your desired color */
+  text-decoration: none;
+
+}
+
+.nav-links a:hover {
+
+  color: pink;
+  text-decoration: underline;
+}
+
+.logo {
+  nav-links;
+  width: 10%;
+  height: 10%;
+  
+}
+
+
+  .row {
+    display: flex;
+  }
+  
+  .col1 {
+    flex: 75%;
+    height: 700px;
+    display: table-cell;
+    color: #ffffff;
+    background-color:black;
+    padding-left: 90px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .col2 {
+    display: table-cell;
+    flex: 50%;
+  }
+
+  H1 {
+    font-size: 3.5cm;
+    font-family: lust, serif;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+footer {
+  text-align: center;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  
+  line-height: 50px;
+  padding-top: 30px;
+  padding-bottom: 10px;}
+
+.socials {
+  display: inline-block;
+  text-align: center;
+  padding-right: 55px;
+}
+
+
+<style>
+.instagram:link {
+  color: black;
+  text-decoration: none;
+}
+.instagram:hover {
+  color: #ffb1fe;
+  text-decoration: none;
+}
+
+.email:link {
+  color: black;
+  text-decoration: none;
+}
+
+.email:hover {
+  color: #ffb1fe;
+  text-decoration: none;
+}
+.linkedin:link {
+  color: black;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  color: #ffb1fe;
+  text-decoration: none;
+}
+</style>
+
+  .logo {
+    text-align-last: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  hr {
+      border-top: 2px solid rgb(0, 0, 0);
+      margin-top: 20px;
+    
+  }
+
+  h5{
+    text-align: center;
+    padding-left: 30px;
+    line-height: 20px;
+    font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 400;
+        
+  }
+
+  .col3 {
+    flex: 90%;
+    height: 500px;
+    display: table-cell;
+    color: #000000;
+    background-color:rgb(255, 216, 243);
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .col4 {
+    display: table-cell;
+    flex: 50%;
+  }
+
+  .col6 {
+    flex: 90%;
+    height: 500px;
+    display: table-cell;
+    color: #000000;
+    background-color:rgb(255, 216, 243);
+    padding-left: 90px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .col5 {
+    display: table-cell;
+    flex: 50%;
+  }
+
+  .achievements {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .column {
+    float: left;
+    width: 25%;
+    height: 10px;
+    padding: 10px;
+  }
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;}
+
+    p { 
+      font-family: articulat-cf, sans-serif;
+      font-style: normal;
+      font-size: medium;
+      font-weight: 400;
+              }
+  nav {
+      font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 400;
+         }  
+
+         input[type=text], select, textarea {
+          width: 100%; /* Full width */
+          padding: 12px; /* Some padding */ 
+          border: 1px solid #ccc; /* Gray border */
+          border-radius: 4px; /* Rounded borders */
+          box-sizing: border-box; /* Make sure that padding and width stays in place */
+          margin-top: 6px; /* Add a top margin */
+          margin-bottom: 16px; /* Bottom margin */
+          resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+          font-family: articulat-cf, sans-serif;
+          font-style: normal;
+          font-weight: 400;
+        }
+        
+        /* Style the submit button with a specific background color etc */
+        input[type=submit] {
+          background-color:pink;
+          color: black;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          
+        }
+        
+        /* When moving the mouse over the submit button, add a darker green color */
+        input[type=submit]:hover {
+          background-color: palevioletred;
+          font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 400
+        }
+        
+        /* Add a background color and some padding around the form */
+        .form-container {
+          border-radius: 5px;
+          color: #ffffff;
+          background-color: #000000;
+          padding-left: 150px;
+          padding-right: 150px;
+          padding-bottom:100px;
+          font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 400  
+                           }
+
+          .contactheader{
+            text-align: center;
+            background-color: #000;
+            color: #ffffff;
+            font-size:1.5cm;
+            padding-top: 1px;
+            padding-bottom: 6px;
+          }
+          
+          .contactheader.contactheader:hover {
+            color: pink;
+          }
+
+          #subject {
+            font-family: articulat-cf, sans-serif;
+font-style: normal;
+font-weight: 400  
+          }
+
+          .image-container {
+            position: relative;
+            display: inline-block;
+            padding: 5px;
+          }
+          
+          .image {
+            filter: grayscale(100%); /* Start with the image in black and white */
+          }
+          
+          .image-container:hover .image {
+            filter: grayscale(0%); /* Apply no grayscale, restoring the image to color */
+          }
+
+          .thankyou-text {
+            text-align: center;
+            padding-top: 30px;
+          }
+
+          .col2 {
+            position: relative;
+            display: inline-block;
+          }
+          
+          .profile {
+            filter: grayscale(100%); /* Start with the image in black and white */
+          }
+          
+          .col2:hover .profile {
+            filter: grayscale(0%);}
+
+            .row2 {
+              display: flex;
+              flex-wrap: wrap;
+            }
+            
+            .col9,
+            .col10,
+            .col11,
+            .col12 {
+              max-width: 24%;
+              flex: 0 0 25%; /* Adjust this value as needed to control the width of each column */
+              padding: 7px; /* Add some spacing between the images */
+            }
+            
+            .pic1,
+            .pic2,
+            .pic3,
+            .pic4 {
+              max-width: 100%; /* Ensure the images scale down proportionally */
+              height: auto; /* Let the browser calculate the appropriate height */
+            }
+
+            .col9,
+            .col10,
+            .col11,
+            .col12 {
+              position: relative;
+              display: inline-block;
+            }
+            
+            .pic1,
+            .pic2,
+            .pic3,
+            .pic4 {
+              filter: grayscale(100%); /* Start with the image in black and white */
+            }
+            
+            .col9:hover .pic1 {
+              filter: grayscale(0%);}
+              
+              .col10:hover .pic2 {
+                filter: grayscale(0%);}
+
+                .col11:hover .pic3 {
+                  filter: grayscale(0%);}
+
+                  .col12:hover .pic4 {
+                    filter: grayscale(0%);}
+              .row2 {
+                display: flex;
+                flex-wrap: wrap;}
+
+  h3 {
+    background-color: #000;
+    font-size:1.5cm;
+    color: white;
+    text-align: center;
+    padding-top: 1cm;
+    padding-bottom: 1cm;
+    margin: 0;
+  }
+
+    .textcolumn{
+      display: inline;
+    
+
+    }
+  
+    .imagecolumn  {
+      display: inline;
+      float: right;
+      margin-top: 0px;
+      padding-right: 0px;
+    }
+
+    .imagerow {
+      padding-top: 30px;
+      padding-left: 20px;
+    }
+
+    .piccolumn  {
+      float: left;
+      margin-top: 0px;
+      padding-right: 0px;
+    }
+
+    .piccolumn2  {
+      float: left;
+      margin-top: 39px;
+      padding-right: 0px;
+    }
+  
+    .col14 {
+      flex: 50%;
+      height: 420px;
+      display: table-cell;
+      color: black;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 0px;
+      margin-bottom: 0px; }
+
+      .col13 {
+        position: relative;
+        display: inline-block;
+        padding-bottom: 10px;
+        padding-top: 30px;
+
+      }
+
+      h4 {
+        font-family: articulat-cf, sans-serif;
+      font-style: normal;
+      font-size: medium;
+      font-weight: 600;
+      }
+    
+      .spinner {
+        margin-left: 700px;
+        margin-top: 70px;
+        width: 40px;
+        height: 40px;
+        border: 4px solid #f3f3f3;
+        border-top: 4px solid #c216a8;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
